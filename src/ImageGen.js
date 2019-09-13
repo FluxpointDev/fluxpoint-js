@@ -10,7 +10,8 @@ class ImageGen {
             headers: {
                 'Authorization': this.key,
                 'Content-Length': 0
-            }
+            },
+            responseType: 'arraybuffer'
         })
     }
     /*
