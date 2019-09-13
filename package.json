@@ -1,0 +1,25 @@
+{
+  "name": "fluxpoint-js",
+  "version": "1.0.0",
+  "description": "JS Library for the Fluxpoint API",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FluxpointDev/fluxpoint-js.git"
+  },
+  "author": "FireGamer3",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/FluxpointDev/fluxpoint-js/issues"
+  },
+  "homepage": "https://github.com/FluxpointDev/fluxpoint-js#readme",
+  "dependencies": {
+    "axios": "^0.19.0"
+  },
+  "devDependencies": {
+    "base64-stream": "^1.0.0"
+  }
+}
