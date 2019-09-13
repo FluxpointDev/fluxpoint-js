@@ -13,8 +13,7 @@ this.fs = fs;
 async function testimgae(context) {
     //test image
     const testimage = await context.fluxapi.ImageGen.getTestImage();
-    var final = Buffer.from(testimage, 'base64')
-    context.fs.writeFile('./test/testImage.jpg', final, (err) => {
+    context.fs.writeFile('./test/testImage.jpg', testimage, (err) => {
         if (err) console.log(err);
         console.log('Success write test image!');
     })

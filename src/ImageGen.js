@@ -22,8 +22,8 @@ class ImageGen {
         try {
             const response = await self.axiosinstance.get('/test');
             console.log(response);
-
-            return response.data;
+            const final = Buffer.from(response.data, 'base64')
+            return final;
         } catch (error) {
             console.error(error);
         }
