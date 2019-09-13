@@ -7,7 +7,10 @@ class ImageGen {
         this.axiosinstance = axios.create({
             baseURL: this.baseURL,
             timeout: 5000,
-            headers: { 'Authorization': this.key }
+            headers: {
+                'Authorization': this.key,
+                'Content-Length': 0
+            }
         })
     }
     /*
@@ -17,6 +20,8 @@ class ImageGen {
         var self = this;
         try {
             const response = await self.axiosinstance.get('/test');
+            console.log(response);
+
             return response.data;
         } catch (error) {
             console.error(error);
