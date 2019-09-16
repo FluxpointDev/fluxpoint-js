@@ -1,4 +1,3 @@
-const types = require('./types');
 const Joi = require('@hapi/joi');
 
 class WelcomeImageBuilder {
@@ -13,8 +12,6 @@ class WelcomeImageBuilder {
         this.color_welcome = '';
         this.color_username = '';
         this.color_members = '';
-
-        this.types = types;
     }
     /**
      * Sets the Username Field

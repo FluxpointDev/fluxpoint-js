@@ -20,7 +20,13 @@ const banners = {
     wave: "wave"
 };
 
+const imageType = {
+    bitmap: "bitmap",
+    url: "url"
+}
+
 module.exports = {
     icons,
-    banners
+    banners,
+    imageType
 }

@@ -1,10 +1,14 @@
 const axios = require('axios');
 const WelcomeBuilder = require('./WelcomeImageBuilder');
+const CustomBuilder = require('./CustomImageBuilder');
+const types = require('./types');
 
 class ImageGen {
     constructor(key) {
         this.key = key;
+        this.types = types;
         this.WelcomeBuilder = WelcomeBuilder;
+        this.CustomBuilder = CustomBuilder;
         this.baseURL = "https://api.fluxpoint.dev/gen";
         this.axiosinstance = axios.create({
             baseURL: this.baseURL,
@@ -38,10 +42,29 @@ class ImageGen {
      */
     async getWelcomeImage(obj) {
         var self = this;
-        console.log(obj);
 
         try {
             const response = await self.axiosinstance.post('/welcome', obj);
+            const final = Buffer.from(response.data, 'base64')
+            return final;
+        } catch (error) {
+            console.log(error.response.data.toString());
+
+
+            console.error(error.toJSON().message);
+            return null;
+        }
+    }
+    /**
+     * Function that returns a Custom Image based on the fed in data. https://docs.fluxpoint.dev/api/custom-image-generation
+     * @returns { Buffer } Buffer of bytes that are the image in JPG format
+     */
+    async getCustomImage(obj) {
+        var self = this;
+        console.log(obj);
+
+        try {
+            const response = await self.axiosinstance.post('/custom', obj);
             const final = Buffer.from(response.data, 'base64')
             return final;
         } catch (error) {
