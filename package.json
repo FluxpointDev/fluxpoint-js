@@ -1,6 +1,6 @@
 {
   "name": "fluxpoint-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JS Library for the Fluxpoint API",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/FluxpointDev/fluxpoint-js.git"
   },
-  "author": "FireGamer3",
+  "author": "FireGamer3 (gm31334@gmail.com)",
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/FluxpointDev/fluxpoint-js/issues"
