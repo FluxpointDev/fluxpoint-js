@@ -6,7 +6,8 @@ Docs: https://docs.fluxpoint.dev/api/my-api
 ## Getting Started
 
 The following code will get you started
-```
+
+```js
 const ImageGen = require('./index').ImageGen;
 const fs = require('fs');
 
