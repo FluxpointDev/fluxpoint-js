@@ -17,9 +17,8 @@
   },
   "homepage": "https://github.com/FluxpointDev/fluxpoint-js#readme",
   "dependencies": {
+    "@hapi/joi": "^16.0.1",
     "axios": "^0.19.0"
   },
-  "devDependencies": {
-    "base64-stream": "^1.0.0"
-  }
+  "devDependencies": {}
 }
