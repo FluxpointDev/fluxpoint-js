@@ -30,8 +30,6 @@ export class Request {
                 request["body"] = data;
             };
         };
-        console.log(this.api + opt.endpoint)
-
         return new Promise(async (resolve, reject) => {
             return fetch(this.api + opt.endpoint, request).then((x) => {
                 x.json().then((res) => {
