@@ -1,0 +1,10 @@
+{
+    "out": "./docs",
+    "name": "fluxpoint-js",
+    "readme": "./README.md",
+    "theme": "default",
+    "entryPoints": ["src/index.ts"],
+    "excludeExternals": false,
+    "excludePrivate": false,
+    "excludeInternal": false
+  }
