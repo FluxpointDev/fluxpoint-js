@@ -1,7 +1,6 @@
 import { FluxpointClient } from "../../../FluxpointClient";
 import { Gifs } from "./Classes/Gifs";
 import { Images } from "./Classes/Images";
-import { Misc } from "../Extra/Misc";
 import { Welcome } from "./Classes/Welcome";
 
 export class SFW {
