@@ -1,8 +1,7 @@
 import { FluxpointClient } from "../../../FluxpointClient";
 import { Gifs } from "./Classes/Gifs";
 import { Images } from "./Classes/Images";
-export * from "./Classes/Gifs";
-export * from "./Classes/Images";
+
 
 export class NSFW {
     private client: FluxpointClient;
