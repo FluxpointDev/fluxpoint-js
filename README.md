@@ -1,6 +1,6 @@
 # fluxpoint-js
 
-Fluxpoint-JS is the offical Fluxpoint api library built for the fluxpoint api!
+Fluxpoint-JS is the offical Fluxpoint Javascript api library built for the fluxpoint api!
 https://fluxpoint.dev
 
 ## Docs
