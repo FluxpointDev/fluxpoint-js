@@ -1,2 +1,3 @@
 # fluxpoint-js
- An API Library for the fluxpoint api
+This is the offical documentation of fluxpoint-js.
+https://fluxpointdev.github.io/fluxpoint-js/
