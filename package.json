@@ -1,6 +1,6 @@
 {
   "name": "fluxpoint-js",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "main": "index.js",
   "author": "J_DDev <69683068+JayyDoesDev@users.noreply.github.com>",
   "license": "MIT",
@@ -20,5 +20,19 @@
     "@types/node": "^17.0.35",
     "cross-fetch": "^3.1.5",
     "typedoc": "^0.22.15"
-  }
+  },
+  "keywords": [
+    "fluxpoint",
+    "flux",
+    "flux-point",
+    "flux-point-js",
+    "flux-point-js-api",
+    "fluxpoint-js",
+    "waifu",
+    "builderb",
+    "anime-api",
+    "discord",
+    "revolt",
+    "guilded"
+  ]
 }
