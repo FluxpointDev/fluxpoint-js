@@ -1,21 +1,19 @@
 {
-    "compilerOptions": {
+  "compilerOptions": {
       "module": "commonjs",
       "target": "ES2019",
       "outDir": "dist",
-      "pretty": true,
-      "noImplicitAny": false,
-      "esModuleInterop": true,
-      "resolveJsonModule": true,
+      "strict": true,
       "declaration": true,
       "declarationMap": true,
+      "esModuleInterop": true,
       "incremental": true,
       "sourceMap": true
-    },
-    "exclude": [
-      "node_modules",
-    ],
-    "include": [
-      "src"
-    ]
-  }
+  },
+  "exclude": [
+      "dist"
+  ],
+  "include": [
+      "src/**/**/*.ts"
+  ]
+}

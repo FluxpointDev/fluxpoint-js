@@ -1,7 +1,7 @@
 import { FluxpointClient } from "../../../FluxpointClient";
-import { Gifs } from "./Classes/Gifs";
-import { Images } from "./Classes/Images";
-import { Welcome } from "./Classes/Welcome";
+import { Gifs } from "./classes/Gifs";
+import { Images } from "./classes/Images";
+import { Welcome } from "./classes/Welcome";
 
 
 

@@ -4,7 +4,7 @@ export class Request {
     private api: string;
     public token: string;
 
-    constructor(token) {
+    constructor(token: any) {
         this.api = 'https://gallery.fluxpoint.dev';
         this.token = token;
     };
