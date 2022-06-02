@@ -20,7 +20,7 @@ export class Gifs {
             endpoint: "/api/sfw/gif/baka"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getBite(): Promise<Response> {
@@ -29,7 +29,7 @@ export class Gifs {
             endpoint: "/api/sfw/gif/bite"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getBlush(): Promise<Response> {
@@ -38,7 +38,7 @@ export class Gifs {
             endpoint: "/api/sfw/gif/blush"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getCry(): Promise<Response> {
@@ -47,7 +47,7 @@ export class Gifs {
             endpoint: "/api/sfw/gif/cry"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getDance(): Promise<Response> {
@@ -56,7 +56,7 @@ export class Gifs {
             endpoint: "/api/sfw/gif/dance"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getFeed(): Promise<Response> {
@@ -65,7 +65,7 @@ export class Gifs {
             endpoint: "/api/sfw/gif/feed"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getFluff(): Promise<Response> {
@@ -74,7 +74,7 @@ export class Gifs {
             endpoint: "/api/sfw/gif/fluff"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getGrabCheeks(): Promise<Response> {
@@ -83,7 +83,7 @@ export class Gifs {
             endpoint: "/api/sfw/gif/grab"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getHandHolding(): Promise<Response> {
@@ -92,7 +92,7 @@ export class Gifs {
             endpoint: "/api/sfw/gif/handhold"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getHighFive(): Promise<Response> {
@@ -101,7 +101,7 @@ export class Gifs {
             endpoint: "/api/sfw/gif/highfive"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getHug(): Promise<Response> {
@@ -110,7 +110,7 @@ export class Gifs {
             endpoint: "/api/sfw/gif/hug"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getKiss(): Promise<Response> {
@@ -119,7 +119,7 @@ export class Gifs {
             endpoint: "/api/sfw/gif/kiss"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getLick(): Promise<Response> {
@@ -128,7 +128,7 @@ export class Gifs {
             endpoint: "/api/sfw/gif/lick"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getPat(): Promise<Response> {
@@ -137,7 +137,7 @@ export class Gifs {
             endpoint: "/api/sfw/gif/pat"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getPoke(): Promise<Response> {
@@ -146,7 +146,7 @@ export class Gifs {
             endpoint: "/api/sfw/gif/poke"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getPunch(): Promise<Response> {
@@ -155,7 +155,7 @@ export class Gifs {
             endpoint: "/api/sfw/gif/punch"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getShrug(): Promise<Response> {
@@ -164,7 +164,7 @@ export class Gifs {
             endpoint: "/api/sfw/gif/shrug"
         });
 
-        return request.file;
+        return request;
 
     };
 
@@ -174,7 +174,7 @@ export class Gifs {
             endpoint: "/api/sfw/gif/slap"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getSmug(): Promise<Response> {
@@ -183,7 +183,7 @@ export class Gifs {
             endpoint: "/api/sfw/gif/smug"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getStare(): Promise<Response> {
@@ -192,7 +192,7 @@ export class Gifs {
             endpoint: "/api/sfw/gif/stare"
         });
 
-        return request.file;
+        return request;
 
     };
 
@@ -202,7 +202,7 @@ export class Gifs {
             endpoint: "/api/sfw/gif/tickle"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getWag(): Promise<Response> {
@@ -211,7 +211,7 @@ export class Gifs {
             endpoint: "/api/sfw/gif/wag"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getWasted(): Promise<Response> {
@@ -220,7 +220,7 @@ export class Gifs {
             endpoint: "/api/sfw/gif/wasted"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getWave(): Promise<Response> {
@@ -229,7 +229,7 @@ export class Gifs {
             endpoint: "/api/sfw/gif/wave"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getWink(): Promise<Response> {
@@ -238,7 +238,7 @@ export class Gifs {
             endpoint: "/api/sfw/gif/wink"
         });
 
-        return request.file;
+        return request;
     };
 
 };

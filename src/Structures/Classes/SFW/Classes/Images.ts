@@ -20,7 +20,7 @@ export class Images {
             endpoint: "/api/sfw/img/neko",
         });
 
-        return request.file;
+        return request;
     };
 
     public async getFox(): Promise<Response> {
@@ -29,7 +29,7 @@ export class Images {
             endpoint: "/api/sfw/img/kitsune"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getHolo(): Promise<Response> {
@@ -38,7 +38,7 @@ export class Images {
             endpoint: "/api/sfw/img/holo"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getChristmas(): Promise<Response> {
@@ -47,7 +47,7 @@ export class Images {
             endpoint: "/api/sfw/img/christmas"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getMaid(): Promise<Response> {
@@ -56,7 +56,7 @@ export class Images {
             endpoint: "/api/sfw/img/maid"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getNekoPara(): Promise<Response> {
@@ -65,7 +65,7 @@ export class Images {
             endpoint: "/api/sfw/img/nekopara"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getAzurlane(): Promise<Response> {
@@ -74,7 +74,7 @@ export class Images {
             endpoint: "/api/sfw/img/azurlane"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getSenko(): Promise<Response> {
@@ -83,7 +83,7 @@ export class Images {
             endpoint: "/api/sfw/img/senko"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getDDLC(): Promise<Response> {
@@ -92,7 +92,7 @@ export class Images {
             endpoint: "/api/sfw/img/ddlc"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getWallpaper(): Promise<Response> {
@@ -101,7 +101,7 @@ export class Images {
             endpoint: "/api/sfw/img/wallpaper"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getRandomAnime(): Promise<Response> {
@@ -110,7 +110,7 @@ export class Images {
             endpoint: "/api/sfw/img/anime"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getMeme(): Promise<Response> {
@@ -119,7 +119,7 @@ export class Images {
             endpoint: "/api/sfw/img/meme"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getNoU(): Promise<Response> {
@@ -128,7 +128,7 @@ export class Images {
             endpoint: "/api/sfw/img/nou"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getPog(): Promise<Response> {
@@ -137,7 +137,7 @@ export class Images {
             endpoint: "/api/sfw/img/pog"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getCat(): Promise<Response> {
@@ -146,7 +146,7 @@ export class Images {
             endpoint: "/api/sfw/img/cat"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getDog(): Promise<Response> {
@@ -155,7 +155,7 @@ export class Images {
             endpoint: "/api/sfw/img/dog"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getLizard(): Promise<Response> {
@@ -164,6 +164,6 @@ export class Images {
             endpoint: "/api/sfw/img/lizard"
         });
 
-        return request.file;
+        return request;
     };
 };
