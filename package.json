@@ -24,6 +24,16 @@
   "repository": {
     "url": "https://github.com/FluxpointDev/fluxpoint-js"
   },
+  "contributors": [
+    {
+      "name": "J_DDev",
+      "url": "https://github.com/JayyDoesDev"
+    },
+    {
+      "name": "Reinhardt",
+      "url": "https://github.com/reinhello"
+    }
+  ],
   "keywords": [
     "fluxpoint",
     "flux",
