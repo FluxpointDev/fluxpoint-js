@@ -1,6 +1,6 @@
 export * from "./FluxpointClient";
-export { Misc } from "./structures/classes/extra/Misc";
-export { Gifs as GifsSFW } from "./structures/classes/sfw/classes/Gifs";
-export { Images as ImagesSFW } from "./structures/classes/sfw/classes/Images";
-export { Gifs as GifsNSFW } from "./structures/classes/nsfw/classes/Gifs";
-export { Images as ImagesNSFW } from "./structures/classes/nsfw/classes/Images";
+export { Misc } from "./Structures/Classes/Extra/Misc";
+export { Gifs as GifsSFW } from "./Structures/Classes/SFW/Classes/Gifs";
+export { Images as ImagesSFW } from "./Structures/Classes/SFW/Classes/Images";
+export { Gifs as GifsNSFW } from "./Structures/Classes/NSFW/Classes/Gifs";
+export { Images as ImagesNSFW } from "./Structures/Classes/NSFW/Classes/Images";

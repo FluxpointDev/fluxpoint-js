@@ -20,7 +20,7 @@ export class Images {
             endpoint: "/api/nsfw/img/azurlane"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getFeet(): Promise<Response> {
@@ -29,7 +29,7 @@ export class Images {
             endpoint: "/api/nsfw/img/feet"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getCum(): Promise<Response> {
@@ -38,7 +38,7 @@ export class Images {
             endpoint: "/api/nsfw/img/cum"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getBlowjob(): Promise<Response> {
@@ -47,7 +47,7 @@ export class Images {
             endpoint: "/api/nsfw/img/blowjob"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getSoloGirl(): Promise<Response> {
@@ -56,7 +56,7 @@ export class Images {
             endpoint: "/api/nsfw/img/solo"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getNeko(): Promise<Response> {
@@ -65,7 +65,7 @@ export class Images {
             endpoint: "/api/nsfw/img/neko"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getBoobs(): Promise<Response> {
@@ -74,7 +74,7 @@ export class Images {
             endpoint: "/api/nsfw/img/boobs"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getAnal(): Promise<Response> {
@@ -83,7 +83,7 @@ export class Images {
             endpoint: "/api/nsfw/img/anal"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getPussy(): Promise<Response> {
@@ -92,7 +92,7 @@ export class Images {
             endpoint: "/api/nsfw/img/pussy"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getYuri(): Promise<Response> {
@@ -101,7 +101,7 @@ export class Images {
             endpoint: "/api/nsfw/img/yuri"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getBDSM(): Promise<Response> {
@@ -110,7 +110,7 @@ export class Images {
             endpoint: "/api/nsfw/img/bdsm"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getFuta(): Promise<Response> {
@@ -119,7 +119,7 @@ export class Images {
             endpoint: "/api/nsfw/img/futa"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getAss(): Promise<Response> {
@@ -128,7 +128,7 @@ export class Images {
             endpoint: "/api/nsfw/img/ass"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getKitsune(): Promise<Response> {
@@ -137,7 +137,7 @@ export class Images {
             endpoint: "/api/nsfw/img/kitsune"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getFemdom(): Promise<Response> {
@@ -146,7 +146,7 @@ export class Images {
             endpoint: "/api/nsfw/img/femdom"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getNekoPara(): Promise<Response> {
@@ -155,7 +155,7 @@ export class Images {
             endpoint: "/api/nsfw/img/nekopara"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getLewd(): Promise<Response> {
@@ -164,7 +164,7 @@ export class Images {
             endpoint: "/api/nsfw/img/lewd"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getPantyhose(): Promise<Response> {
@@ -173,7 +173,7 @@ export class Images {
             endpoint: "/api/nsfw/img/pantyhose"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getCosplay(): Promise<Response> {
@@ -182,7 +182,7 @@ export class Images {
             endpoint: "/api/nsfw/img/cosplay"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getPetplay(): Promise<Response> {
@@ -191,7 +191,7 @@ export class Images {
             endpoint: "/api/nsfw/img/petplay"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getGasm(): Promise<Response> {
@@ -200,7 +200,7 @@ export class Images {
             endpoint: "/api/nsfw/img/gasm"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getTrap(): Promise<Response> {
@@ -209,7 +209,7 @@ export class Images {
             endpoint: "/api/nsfw/img/trap"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getAnus(): Promise<Response> {
@@ -218,7 +218,7 @@ export class Images {
             endpoint: "/api/nsfw/img/anus"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getHolo(): Promise<Response> {
@@ -227,7 +227,7 @@ export class Images {
             endpoint: "/api/nsfw/img/holo"
         });
 
-        return request.file;
+        return request;
     };
 
     public async getYaoi(): Promise<Response> {
@@ -236,7 +236,7 @@ export class Images {
             endpoint: "/api/nsfw/img/yaoi"
         });
 
-        return request.file;
+        return request;
     };
 
 };
