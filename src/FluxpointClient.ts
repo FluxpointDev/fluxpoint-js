@@ -1,7 +1,7 @@
-import { SFW } from "./structures/classes/sfw/index";
+import { SFW } from "./structures/Classes/SFW/index";
 import { Request } from "./structures/request/Request";
-import { Misc } from "./structures/classes/extra/Misc";
-import { NSFW } from "./structures/classes/nsfw";
+import { Misc } from "./structures/Classes/Extra/Misc";
+import { NSFW } from "./Structures/Classes/NSFW";
 
 
 export class FluxpointClient {
