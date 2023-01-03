@@ -43,7 +43,7 @@ declare module "fluxpoint-js" {
     id: string;
     created: string;
   }
-  interface IColorRandomResponse {
+  interface IColorResponse {
     success: boolean;
     code: number;
     message: string;
@@ -159,12 +159,10 @@ declare module "fluxpoint-js" {
     constructor(client: FluxpointClient) {
       this.client = client;
     }
-    public random(): Promise<IColorRandomResponse | IErrorResponse>;
-    public getHex(hex: string): Promise<IColorRandomResponse | IErrorResponse>;
-    public getRGB(rgb: string): Promise<IColorRandomResponse | IErrorResponse>;
-    public getName(
-      name: string
-    ): Promise<IColorRandomResponse | IErrorResponse>;
+    public random(): Promise<IColorResponse | IErrorResponse>;
+    public getHex(hex: string): Promise<IColorResponse | IErrorResponse>;
+    public getRGB(rgb: string): Promise<IColorResponse | IErrorResponse>;
+    public getName(name: string): Promise<IColorResponse | IErrorResponse>;
   }
   class Convert {
     private client: FluxpointClient;
