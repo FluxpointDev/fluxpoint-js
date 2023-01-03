@@ -17,6 +17,14 @@ class Meme {
       endpoint: "/api/sfw/img/nou",
     });
   }
+
+  async getPog() {
+    return await this.client.request.req({
+      type: "IMG",
+      method: "GET",
+      endpoint: "/api/sfw/img/pog",
+    });
+  }
 }
 
 module.exports = {

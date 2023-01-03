@@ -270,5 +270,6 @@ declare module "fluxpoint-js" {
     }
     public getMeme(): Promise<IResponse | IErrorResponse>;
     public getNou(): Promise<IResponse | IErrorResponse>;
+    public getPog(): Promise<IResponse | IErrorResponse>;
   }
 }
