@@ -76,6 +76,22 @@ declare module "fluxpoint-js" {
     color_username?: string;
     color_members?: string;
   }
+  interface IMinecraftResponse {
+    online: boolean;
+    icon: string | null;
+    motd: string | null;
+    playersOnline: number;
+    version: string | null;
+    fullQuery: boolean;
+    players: Array;
+    success: boolean;
+    code: number;
+    message: string;
+  }
+  interface IGetPingOptions {
+    host: string | number;
+    port: string | number;
+  }
   class FluxpointClient {
     public token: string;
     private request: Request;
@@ -179,6 +195,18 @@ declare module "fluxpoint-js" {
     public generateWelcome(
       options: IGenerateWelcomeOptions
     ): Promise<ImageData | IErrorResponse>;
+  }
+  class Minecraft {
+    private client: FluxpointClient;
+    constructor(client: FluxpointClient) {
+      this.client = client;
+    }
+    public getPing(
+      options: IGetPingOptions
+    ): Promise<IMinecraftResponse | IErrorResponse>;
+    public getPingByHost(
+      host: string | number
+    ): Promise<IMinecraftResponse | IErrorResponse>;
   }
   class SFWImages {
     private client: FluxpointClient;

@@ -6,6 +6,7 @@ const {
   Convert,
   List,
   Images,
+  Minecraft,
   SFW,
 } = require("./structures/index");
 class FluxpointClient {
@@ -18,6 +19,7 @@ class FluxpointClient {
     this.convert = new Convert(this);
     this.list = new List(this);
     this.images = new Images(this);
+    this.minecraft = new Minecraft(this);
     this.sfw = new SFW(this);
   }
 }

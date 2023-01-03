@@ -6,6 +6,7 @@ const { Convert } = require("./Convert/Convert");
 const { SFW } = require("./SFW/index");
 const { List } = require("./List/List");
 const { Images } = require("./Image/Image");
+const { Minecraft } = require("./Minecraft/Minecraft");
 module.exports = {
   Request,
   Test,
@@ -14,5 +15,6 @@ module.exports = {
   Convert,
   List,
   Images,
+  Minecraft,
   SFW,
 };
