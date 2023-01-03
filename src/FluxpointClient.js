@@ -8,6 +8,7 @@ const {
   Images,
   Minecraft,
   SFW,
+  Meme,
 } = require("./structures/index");
 class FluxpointClient {
   constructor(options = { token: "" }) {
@@ -21,6 +22,7 @@ class FluxpointClient {
     this.images = new Images(this);
     this.minecraft = new Minecraft(this);
     this.sfw = new SFW(this);
+    this.meme = new Meme(this);
   }
 }
 

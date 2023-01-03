@@ -3,10 +3,11 @@ const { Test } = require("./Test/Test");
 const { Misc } = require("./Misc/Misc");
 const { Color } = require("./Color/Color");
 const { Convert } = require("./Convert/Convert");
-const { SFW } = require("./SFW/index");
 const { List } = require("./List/List");
 const { Images } = require("./Image/Image");
 const { Minecraft } = require("./Minecraft/Minecraft");
+const { SFW } = require("./SFW/index");
+const { Meme } = require("./Meme/Meme");
 module.exports = {
   Request,
   Test,
@@ -17,4 +18,5 @@ module.exports = {
   Images,
   Minecraft,
   SFW,
+  Meme,
 };
