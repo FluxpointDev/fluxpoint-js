@@ -102,6 +102,7 @@ declare module "fluxpoint-js" {
     public list: List;
     public sfw: SFW;
     public meme: Meme;
+    public animal: Animal;
     constructor(
       options = {
         token: null as unknown as string,
@@ -116,6 +117,7 @@ declare module "fluxpoint-js" {
       this.list = new List(this);
       this.sfw = new SFW(this);
       this.meme = new Meme(this);
+      this.animal = new Animal(this);
     }
   }
   class Request {
@@ -271,5 +273,15 @@ declare module "fluxpoint-js" {
     public getMeme(): Promise<IResponse | IErrorResponse>;
     public getNou(): Promise<IResponse | IErrorResponse>;
     public getPog(): Promise<IResponse | IErrorResponse>;
+  }
+  class Animal {
+    private client: FluxpointClient;
+    constructor(client: FluxpointClient) {
+      this.client = client;
+    }
+    public getCat(): Promise<IResponse | IErrorResponse>;
+    public getDog(): Promise<IResponse | IErrorResponse>;
+    public getDuck(): Promise<IResponse | IErrorResponse>;
+    public getLizard(): Promise<IResponse | IErrorResponse>;
   }
 }

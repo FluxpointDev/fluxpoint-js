@@ -8,6 +8,7 @@ const { Images } = require("./Image/Image");
 const { Minecraft } = require("./Minecraft/Minecraft");
 const { SFW } = require("./SFW/index");
 const { Meme } = require("./Meme/Meme");
+const { Animal } = require("./Animal/Animal");
 module.exports = {
   Request,
   Test,
@@ -19,4 +20,5 @@ module.exports = {
   Minecraft,
   SFW,
   Meme,
+  Animal,
 };
