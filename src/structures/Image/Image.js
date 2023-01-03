@@ -41,7 +41,7 @@ class Images {
   ) {
     return await this.client.request.req({
       type: "API",
-      method: "GET",
+      method: "POST",
       endpoint: "/gen/welcome",
       data: options,
     });
