@@ -160,7 +160,11 @@ declare module "fluxpoint-js" {
       this.client = client;
     }
     public random(): Promise<IColorRandomResponse | IErrorResponse>;
-    public colorInfo(): Promise<IColorRandomResponse | IErrorResponse>;
+    public getHex(hex: string): Promise<IColorRandomResponse | IErrorResponse>;
+    public getRGB(rgb: string): Promise<IColorRandomResponse | IErrorResponse>;
+    public getName(
+      name: string
+    ): Promise<IColorRandomResponse | IErrorResponse>;
   }
   class Convert {
     private client: FluxpointClient;
