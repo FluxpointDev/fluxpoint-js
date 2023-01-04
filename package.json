@@ -1,6 +1,6 @@
 {
   "name": "fluxpoint-js",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "main": "src/index.js",
   "author": "J_DDev <69683068+JayyDoesDev@users.noreply.github.com>",
   "license": "MIT",
@@ -17,8 +17,7 @@
   "dependencies": {
     "@types/node": "^17.0.36",
     "coffeescript": "^2.7.0",
-    "cross-fetch": "^3.1.5",
-    "typedoc": "^0.22.15"
+    "cross-fetch": "^3.1.5"
   },
   "repository": {
     "url": "https://github.com/FluxpointDev/fluxpoint-js"
