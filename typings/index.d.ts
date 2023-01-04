@@ -83,7 +83,7 @@ declare module "fluxpoint-js" {
     playersOnline: number;
     version: string | null;
     fullQuery: boolean;
-    players: Array;
+    players: [];
     success: boolean;
     code: number;
     message: string;
@@ -103,48 +103,23 @@ declare module "fluxpoint-js" {
     public sfw: SFW;
     public meme: Meme;
     public animal: Animal;
-    constructor(
-      options = {
-        token: null as unknown as string,
-      }
-    ) {
-      this.token = options.token;
-      this.request = new Request(this.token);
-      this.test = new Test(this);
-      this.misc = new Misc(this);
-      this.color = new Color(this);
-      this.convert = new Convert(this);
-      this.list = new List(this);
-      this.sfw = new SFW(this);
-      this.meme = new Meme(this);
-      this.animal = new Animal(this);
-    }
+    constructor(options?: { token: string });
   }
   class Request {
     private token: string;
     private api: string;
-    constructor(token: string) {
-      this.api = "https://gallery.fluxpoint.dev";
-      this.token = token;
-    }
-
+    constructor(token: string);
     public req(options: IResponseOptions): Promise<IResponse | IErrorResponse>;
   }
   class SFW {
     private client: FluxpointClient;
     public images: SFWImages;
     public gifs: SFWGifs;
-    constructor(client: FluxpointClient) {
-      this.client = client;
-      this.images = new SFWImages(client);
-      this.gifs = new SFWGifs(client);
-    }
+    constructor(client: FluxpointClient);
   }
   class Test {
     private client: FluxpointClient;
-    constructor(client: FluxpointClient) {
-      this.client = client;
-    }
+    constructor(client: FluxpointClient);
     public test(): Promise<ITestResponse>;
     public testGallery(): Promise<IResponse>;
     public testImage(type: TTestImage): Promise<ImageData>;
@@ -152,17 +127,13 @@ declare module "fluxpoint-js" {
   }
   class Misc {
     private client: FluxpointClient;
-    constructor(client: FluxpointClient) {
-      this.client = client;
-    }
+    constructor(client: FluxpointClient);
     public getDadJoke(): Promise<IDadJokeResponse | IErrorResponse>;
     public getMe(): Promise<IMeResponse | IErrorResponse>;
   }
   class Color {
     private client: FluxpointClient;
-    constructor(client: FluxpointClient) {
-      this.client = client;
-    }
+    constructor(client: FluxpointClient);
     public random(): Promise<IColorResponse | IErrorResponse>;
     public getHex(hex: string): Promise<IColorResponse | IErrorResponse>;
     public getRGB(rgb: string): Promise<IColorResponse | IErrorResponse>;
@@ -170,9 +141,7 @@ declare module "fluxpoint-js" {
   }
   class Convert {
     private client: FluxpointClient;
-    constructor(client: FluxpointClient) {
-      this.client = client;
-    }
+    constructor(client: FluxpointClient);
     public htmlToMarkdown(
       options: IHTMLToMarkdownOptions
     ): Promise<any | IErrorResponse>;
@@ -182,18 +151,14 @@ declare module "fluxpoint-js" {
   }
   class List {
     private client: FluxpointClient;
-    constructor(client: FluxpointClient) {
-      this.client = client;
-    }
+    constructor(client: FluxpointClient);
     public getTemplates(): Promise<IListResponse | IErrorResponse>;
     public getBanners(): Promise<IListResponse | IErrorResponse>;
     public getIcons(): Promise<IListResponse | IErrorResponse>;
   }
   class Images {
     private client: FluxpointClient;
-    constructor(client: FluxpointClient) {
-      this.client = client;
-    }
+    constructor(client: FluxpointClient);
     public generateTemplate(
       template: string
     ): Promise<ImageData | IErrorResponse>;
@@ -204,9 +169,7 @@ declare module "fluxpoint-js" {
   }
   class Minecraft {
     private client: FluxpointClient;
-    constructor(client: FluxpointClient) {
-      this.client = client;
-    }
+    constructor(client: FluxpointClient);
     public getPing(
       options: IGetPingOptions
     ): Promise<IMinecraftResponse | IErrorResponse>;
@@ -216,9 +179,7 @@ declare module "fluxpoint-js" {
   }
   class SFWImages {
     private client: FluxpointClient;
-    constructor(client: FluxpointClient) {
-      this.client = client;
-    }
+    constructor(client: FluxpointClient);
     public getAnime(): Promise<IResponse | IErrorResponse>;
     public getChibi(): Promise<IResponse | IErrorResponse>;
     public getNeko(): Promise<IResponse | IErrorResponse>;
@@ -235,9 +196,7 @@ declare module "fluxpoint-js" {
   }
   class SFWGifs {
     private client: FluxpointClient;
-    constructor(client: FluxpointClient) {
-      this.client = client;
-    }
+    constructor(client: FluxpointClient);
     public getBaka(): Promise<IResponse | IErrorResponse>;
     public getBite(): Promise<IResponse | IErrorResponse>;
     public getBlush(): Promise<IResponse | IErrorResponse>;
@@ -267,18 +226,14 @@ declare module "fluxpoint-js" {
   }
   class Meme {
     private client: FluxpointClient;
-    constructor(client: FluxpointClient) {
-      this.client = client;
-    }
+    constructor(client: FluxpointClient);
     public getMeme(): Promise<IResponse | IErrorResponse>;
     public getNou(): Promise<IResponse | IErrorResponse>;
     public getPog(): Promise<IResponse | IErrorResponse>;
   }
   class Animal {
     private client: FluxpointClient;
-    constructor(client: FluxpointClient) {
-      this.client = client;
-    }
+    constructor(client: FluxpointClient);
     public getCat(): Promise<IResponse | IErrorResponse>;
     public getDog(): Promise<IResponse | IErrorResponse>;
     public getDuck(): Promise<IResponse | IErrorResponse>;

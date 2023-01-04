@@ -3,7 +3,7 @@
     "name": "fluxpoint-js",
     "readme": "./README.md",
     "theme": "default",
-    "entryPoints": ["src/index.ts"],
+    "entryPoints": ["typings/index.d.ts"],
     "excludeExternals": false,
     "excludePrivate": false,
     "excludeInternal": false
