@@ -9,6 +9,7 @@ const { Minecraft } = require("./Minecraft/Minecraft");
 const { SFW } = require("./SFW/index");
 const { Meme } = require("./Meme/Meme");
 const { Animal } = require("./Animal/Animal");
+const { NSFW } = require("./NSFW/index");
 module.exports = {
   Request,
   Test,
@@ -21,4 +22,5 @@ module.exports = {
   SFW,
   Meme,
   Animal,
+  NSFW,
 };

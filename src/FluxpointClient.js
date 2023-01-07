@@ -10,6 +10,7 @@ const {
   SFW,
   Meme,
   Animal,
+  NSFW,
 } = require("./structures/index");
 class FluxpointClient {
   constructor(options = { token: "" }) {
@@ -25,6 +26,7 @@ class FluxpointClient {
     this.sfw = new SFW(this);
     this.meme = new Meme(this);
     this.animal = new Animal(this);
+    this.nsfw = new NSFW(this);
   }
 }
 
