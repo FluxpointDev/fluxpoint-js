@@ -39,12 +39,24 @@ class Images {
       color_members: "",
     }
   ) {
-    return await this.client.request.req({
+    const r = await this.client.request.req({
       type: "API",
       method: "POST",
       endpoint: "/gen/welcome",
-      data: options,
+      data: {
+        username: options.username,
+        avatar: options.avatar,
+        background: options.background,
+        members: options.members,
+        icon: options.icon,
+        banner: options.banner,
+        color_welcome: options.color_welcome,
+        color_username: options.color_username,
+        color_members: options.color_members,
+      },
     });
+
+    return Buffer.from(r).toString("hex");
   }
 }
 

@@ -162,10 +162,10 @@ declare module "fluxpoint-js" {
     public generateTemplate(
       template: string
     ): Promise<ImageData | IErrorResponse>;
-    public generate(): Promise<ImageData | IErrorResponse>;
+    public generate(): Promise<Buffer | IErrorResponse>;
     public generateWelcome(
       options: IGenerateWelcomeOptions
-    ): Promise<ImageData | IErrorResponse>;
+    ): Promise<Buffer | IErrorResponse>;
   }
   class Minecraft {
     private client: FluxpointClient;
@@ -238,5 +238,16 @@ declare module "fluxpoint-js" {
     public getDog(): Promise<IResponse | IErrorResponse>;
     public getDuck(): Promise<IResponse | IErrorResponse>;
     public getLizard(): Promise<IResponse | IErrorResponse>;
+  }
+  class NSFWImages {
+    private client: FluxpointClient;
+    constructor(client: FluxpointClient);
+    public getAnal(): Promise<IResponse | IErrorResponse>;
+    public getAnus(): Promise<IResponse | IErrorResponse>;
+    public getAss(): Promise<IResponse | IErrorResponse>;
+    public getAzurlane(): Promise<IResponse | IErrorResponse>;
+    public getBDSM(): Promise<IResponse | IErrorResponse>;
+    public getBlowJob(): Promise<IResponse | IErrorResponse>;
+    public getBoobs(): Promise<IResponse | IErrorResponse>;
   }
 }
