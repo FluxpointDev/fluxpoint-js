@@ -159,9 +159,7 @@ declare module "fluxpoint-js" {
   class Images {
     private client: FluxpointClient;
     constructor(client: FluxpointClient);
-    public generateTemplate(
-      template: string
-    ): Promise<ImageData | IErrorResponse>;
+    public generateTemplate(template: string): Promise<Buffer | IErrorResponse>;
     public generate(): Promise<Buffer | IErrorResponse>;
     public generateWelcome(
       options: IGenerateWelcomeOptions
