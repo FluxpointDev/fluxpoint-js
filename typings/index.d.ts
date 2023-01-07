@@ -122,7 +122,7 @@ declare module "fluxpoint-js" {
     constructor(client: FluxpointClient);
     public test(): Promise<ITestResponse>;
     public testGallery(): Promise<IResponse>;
-    public testImage(type: TTestImage): Promise<ImageData>;
+    public testImage(type: TTestImage): Promise<Buffer>;
     public testError(): Promise<IErrorResponse>;
   }
   class Misc {
