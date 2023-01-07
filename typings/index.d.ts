@@ -117,6 +117,11 @@ declare module "fluxpoint-js" {
     public gifs: SFWGifs;
     constructor(client: FluxpointClient);
   }
+  class NSFW {
+    private client: FluxpointClient;
+    public images: NSFWImages;
+    constructor(client: FluxpointClient);
+  }
   class Test {
     private client: FluxpointClient;
     constructor(client: FluxpointClient);
@@ -247,5 +252,29 @@ declare module "fluxpoint-js" {
     public getBDSM(): Promise<IResponse | IErrorResponse>;
     public getBlowJob(): Promise<IResponse | IErrorResponse>;
     public getBoobs(): Promise<IResponse | IErrorResponse>;
+    public getCosplay(): Promise<IResponse | IErrorResponse>;
+    public getCum(): Promise<IResponse | IErrorResponse>;
+    public getFeet(): Promise<IResponse | IErrorResponse>;
+    public getFemdom(): Promise<IResponse | IErrorResponse>;
+    public getFuta(): Promise<IResponse | IErrorResponse>;
+    public getGasm(): Promise<IResponse | IErrorResponse>;
+    public getHolo(): Promise<IResponse | IErrorResponse>;
+    public getKitsune(): Promise<IResponse | IErrorResponse>;
+    public getLewd(): Promise<IResponse | IErrorResponse>;
+    public getNeko(): Promise<IResponse | IErrorResponse>;
+    public getNekopara(): Promise<IResponse | IErrorResponse>;
+    public getPantsu(): Promise<IResponse | IErrorResponse>;
+    public getPantyhose(): Promise<IResponse | IErrorResponse>;
+    public getPeeing(): Promise<IResponse | IErrorResponse>;
+    public getPetPlay(): Promise<IResponse | IErrorResponse>;
+    public getPussy(): Promise<IResponse | IErrorResponse>;
+    public getSlimes(): Promise<IResponse | IErrorResponse>;
+    public getSolo(): Promise<IResponse | IErrorResponse>;
+    public getSwimsuit(): Promise<IResponse | IErrorResponse>;
+    public getTentacle(): Promise<IResponse | IErrorResponse>;
+    public getThighs(): Promise<IResponse | IErrorResponse>;
+    public getTrap(): Promise<IResponse | IErrorResponse>;
+    public getYaoi(): Promise<IResponse | IErrorResponse>;
+    public getYuri(): Promise<IResponse | IErrorResponse>;
   }
 }
