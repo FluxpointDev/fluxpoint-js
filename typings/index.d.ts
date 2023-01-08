@@ -37,11 +37,12 @@ declare module "fluxpoint-js" {
     content: string;
   }
   interface IMeResponse {
+    id: string;
+    created: string;
+    britishAchievement: boolean;
     success: boolean;
     code: number;
     message: string;
-    id: string;
-    created: string;
   }
   interface IColorResponse {
     success: boolean;
