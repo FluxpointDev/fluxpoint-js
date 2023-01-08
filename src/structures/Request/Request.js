@@ -44,7 +44,6 @@ class Request {
     }
     return new Promise(async (resolve, reject) => {
       return fetch(this.api + options.endpoint, request).then((x) => {
-        console.log(this.api + options.endpoint, request);
         x.json()
           .then((res) => {
             return resolve(res);
