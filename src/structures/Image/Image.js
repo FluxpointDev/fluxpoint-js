@@ -55,7 +55,6 @@ class Images {
         color_members: options.color_members,
       },
     });
-
     return Buffer.from(r).toString("hex");
   }
 }

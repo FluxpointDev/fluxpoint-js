@@ -121,6 +121,7 @@ declare module "fluxpoint-js" {
   class NSFW {
     private client: FluxpointClient;
     public images: NSFWImages;
+    public gifs: NSFWGifs;
     constructor(client: FluxpointClient);
   }
   class Test {
@@ -276,6 +277,30 @@ declare module "fluxpoint-js" {
     public getThighs(): Promise<IResponse | IErrorResponse>;
     public getTrap(): Promise<IResponse | IErrorResponse>;
     public getYaoi(): Promise<IResponse | IErrorResponse>;
+    public getYuri(): Promise<IResponse | IErrorResponse>;
+  }
+  class NSFWGifs {
+    private client: FluxpointClient;
+    constructor(client: FluxpointClient);
+    public getAnal(): Promise<IResponse | IErrorResponse>;
+    public getAss(): Promise<IResponse | IErrorResponse>;
+    public getBDSM(): Promise<IResponse | IErrorResponse>;
+    public getBlowJob(): Promise<IResponse | IErrorResponse>;
+    public getBoobs(): Promise<IResponse | IErrorResponse>;
+    public getCum(): Promise<IResponse | IErrorResponse>;
+    public getFeet(): Promise<IResponse | IErrorResponse>;
+    public getHandJob(): Promise<IResponse | IErrorResponse>;
+    public getHentai(): Promise<IResponse | IErrorResponse>;
+    public getKitsune(): Promise<IResponse | IErrorResponse>;
+    public getKuni(): Promise<IResponse | IErrorResponse>;
+    public getNeko(): Promise<IResponse | IErrorResponse>;
+    public getPussy(): Promise<IResponse | IErrorResponse>;
+    public getWank(): Promise<IResponse | IErrorResponse>;
+    public getSolo(): Promise<IResponse | IErrorResponse>;
+    public getSpank(): Promise<IResponse | IErrorResponse>;
+    public getFemdom(): Promise<IResponse | IErrorResponse>;
+    public getTentacle(): Promise<IResponse | IErrorResponse>;
+    public getToys(): Promise<IResponse | IErrorResponse>;
     public getYuri(): Promise<IResponse | IErrorResponse>;
   }
 }
