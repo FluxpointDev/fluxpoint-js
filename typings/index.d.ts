@@ -48,11 +48,11 @@ declare module "fluxpoint-js" {
     success: boolean;
     code: number;
     message: string;
-    hex: string;
-    name: string;
     r: number;
     g: number;
     b: number;
+    name: string;
+    hex: string;
   }
   interface IHTMLToMarkdownOptions {
     html: string;
