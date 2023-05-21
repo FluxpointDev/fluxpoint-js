@@ -5,6 +5,9 @@ https://fluxpointdev.github.io/fluxpoint-js/
 ```js
 const { FluxpointClient } = require("fluxpoint-js");
 const client = new FluxpointClient({
+  token: "token"
+});
+
 const main = async () => {
 main().catch((e) => {
   console.log(e);
