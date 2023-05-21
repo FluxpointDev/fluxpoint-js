@@ -9,7 +9,7 @@ dist
 
 # Files
 .env
-__tests__/index.js
+__tests__
 
 
 # User-specific files
