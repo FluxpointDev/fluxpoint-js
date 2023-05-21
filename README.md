@@ -1,21 +1,31 @@
-https://fluxpointdev.github.io/fluxpoint-js/
+# fluxpoint-js
 
+Fluxpoint-JS is the offical Fluxpoint JavaScript api library built for the fluxpoint api!
+https://fluxpoint.dev
+
+## Docs
+https://fluxpointdev.github.io/fluxpoint-js/
 
 # JavaScript
 ```js
 const { FluxpointClient } = require("fluxpoint-js");
 const client = new FluxpointClient({
-@ -20,4 +21,33 @@ const main = async () => {
+  token: "token",
+});
+
+const main = async () => {
+  console.log(await client.sfw.images.getNeko());
+};
+
 main().catch((e) => {
   console.log(e);
 });
 ```
 # TypeScript
 ```ts
-import { FluxpointClient, IErrorResponse } from "fluxpoint-js";
-const client: FluxpointClient = new FluxpointClient({
-  token: "token"
-});
+import { FluxpointClient, IResponse, IErrorResponse } from "fluxpoint-js";
+
+const client: FluxpointClient = new FluxpointClient();
 
 const main: Function = async () => {
   console.log(await client.sfw.gifs.getNeko());
@@ -38,4 +48,4 @@ main = () ->
 
 main().catch (e) ->
      console.log e
-``
+```
