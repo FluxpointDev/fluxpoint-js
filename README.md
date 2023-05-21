@@ -5,7 +5,7 @@ https://fluxpointdev.github.io/fluxpoint-js/
 ```js
 const { FluxpointClient } = require("fluxpoint-js");
 const client = new FluxpointClient({
-@ -20,4 +21,33 @@ const main = async () => {
+const main = async () => {
 main().catch((e) => {
   console.log(e);
 });
