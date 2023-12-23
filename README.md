@@ -38,12 +38,10 @@ main().catch((e: IErrorResponse) => {
 # CoffeeScript
 ```coffee
 { FluxpointClient } = require "fluxpoint-js";
-client = new FluxpointClient({
-    token: "token"
-});
+client = new FluxpointClient { token: "token" }
 
 main = () ->
-     console.log await client.sfw.gifs.getNeko();
+     console.log await client.sfw.gifs.getNeko()
 
 
 main().catch (e) ->
