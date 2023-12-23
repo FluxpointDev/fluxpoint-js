@@ -19,11 +19,11 @@ class Request {
     }
 
     if (options.type == "IMG") {
-      this.api = "https://gallery.fluxpoint.dev";
+      throw Error("[fluxpoint-js] Gallery endpoint deprecated.");
     } else if (options.type == "API") {
       this.api = "https://api.fluxpoint.dev";
     } else {
-      this.api = "https://gallery.fluxpoint.dev";
+      throw Error("[fluxpoint-js] Gallery endpoint deprecated.");
     }
 
     const request = {

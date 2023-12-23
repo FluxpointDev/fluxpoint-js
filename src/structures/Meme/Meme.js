@@ -1,28 +1,29 @@
 class Meme {
+  #client;
   constructor(client) {
-    this.client = client;
+    this.#client = client;
   }
   async getMeme() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/sfw/img/meme",
+      endpoint: "/sfw/img/meme",
     });
   }
 
   async getNou() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/sfw/img/nou",
+      endpoint: "/sfw/img/nou",
     });
   }
 
   async getPog() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/sfw/img/pog",
+      endpoint: "/sfw/img/pog",
     });
   }
 }

@@ -1,9 +1,10 @@
 class Minecraft {
+  #client;
   constructor(client) {
-    this.client = client;
+    this.#client = client;
   }
   async getPing(options = { host: "" | 0, port: "" | 25565 | "25565" }) {
-    return await this.client.request.req({
+    return await this.#client.request.req({
       type: "API",
       method: "GET",
       endpoint: `/mc/ping?host=${options.host}?port=${options.port}`,
@@ -11,7 +12,7 @@ class Minecraft {
   }
 
   async getPingByHost(host) {
-    return await this.client.request.req({
+    return await this.#client.request.req({
       type: "API",
       method: "GET",
       endpoint: `/mc/ping?host=${host}`,

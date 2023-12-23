@@ -1,9 +1,10 @@
 class Color {
+  #client;
   constructor(client) {
-    this.client = client;
+    this.#client = client;
   }
   async random() {
-    return await this.client.request.req({
+    return await this.#client.request.req({
       type: "API",
       method: "GET",
       endpoint: "/color/random",
@@ -11,7 +12,7 @@ class Color {
   }
 
   async getHex(hex) {
-    return await this.client.request.req({
+    return await this.#client.request.req({
       type: "API",
       method: "GET",
       endpoint: `/color/info?hex=${hex}`,
@@ -19,7 +20,7 @@ class Color {
   }
 
   async getRGB(rgb) {
-    return await this.client.request.req({
+    return await this.#client.request.req({
       type: "API",
       method: "GET",
       endpoint: `/color/info?rgb=${rgb}`,
@@ -27,7 +28,7 @@ class Color {
   }
 
   async getName(name) {
-    return await this.client.request.req({
+    return await this.#client.request.req({
       type: "API",
       method: "GET",
       endpoint: `/color/info?name=${name}`,

@@ -1,108 +1,109 @@
 class SFWImages {
+  #client;
   constructor(client) {
-    this.client = client;
+    this.#client = client;
   }
   async getAnime() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/sfw/img/anime",
+      endpoint: "/sfw/img/anime",
     });
   }
 
   async getChibi() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/sfw/img/chibi",
+      endpoint: "/sfw/img/chibi",
     });
   }
 
   async getNeko() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/sfw/img/neko",
+      endpoint: "/sfw/img/neko",
     });
   }
 
   async getNekoBoy() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/sfw/img/nekoboy",
+      endpoint: "/sfw/img/nekoboy",
     });
   }
 
   async getNekoPara() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/sfw/img/nekopara",
+      endpoint: "/sfw/img/nekopara",
     });
   }
 
   async getKitsune() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/sfw/img/kitsune",
+      endpoint: "/sfw/img/kitsune",
     });
   }
 
   async getHolo() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/sfw/img/holo",
+      endpoint: "/sfw/img/holo",
     });
   }
 
   async getAzulane() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/sfw/img/azurlane",
+      endpoint: "/sfw/img/azurlane",
     });
   }
 
   async getChristmas() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/sfw/img/christmas",
+      endpoint: "/sfw/img/christmas",
     });
   }
 
   async getHalloween() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/sfw/img/halloween",
+      endpoint: "/sfw/img/halloween",
     });
   }
 
   async getMaid() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/sfw/img/maid",
+      endpoint: "/sfw/img/maid",
     });
   }
 
   async getDDLC() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/sfw/img/ddlc",
+      endpoint: "/sfw/img/ddlc",
     });
   }
 
   async getWallpaper() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/sfw/img/wallpaper",
+      endpoint: "/sfw/img/wallpaper",
     });
   }
 }

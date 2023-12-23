@@ -1,9 +1,10 @@
 class Misc {
+  #client;
   constructor(client) {
-    this.client = client;
+    this.#client = client;
   }
   async getDadJoke() {
-    return await this.client.request.req({
+    return await this.#client.request.req({
       type: "API",
       method: "GET",
       endpoint: "/dadjoke",
@@ -11,7 +12,7 @@ class Misc {
   }
 
   async getMe() {
-    return await this.client.request.req({
+    return await this.#client.request.req({
       type: "API",
       method: "GET",
       endpoint: "/me",

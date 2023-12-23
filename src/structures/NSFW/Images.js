@@ -1,252 +1,253 @@
 class NSFWImages {
+  #client;
   constructor(client) {
-    this.client = client;
+    this.#client = client;
   }
   async getAnal() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/nsfw/img/anal",
+      endpoint: "/nsfw/img/anal",
     });
   }
 
   async getAnus() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/nsfw/img/anus",
+      endpoint: "/nsfw/img/anus",
     });
   }
 
   async getAss() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/nsfw/img/ass",
+      endpoint: "/nsfw/img/ass",
     });
   }
 
   async getAzurlane() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/nsfw/img/azurlane",
+      endpoint: "/nsfw/img/azurlane",
     });
   }
 
   async getBDSM() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/nsfw/img/bdsm",
+      endpoint: "/nsfw/img/bdsm",
     });
   }
 
   async getBlowJob() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/nsfw/img/blowjob",
+      endpoint: "/nsfw/img/blowjob",
     });
   }
 
   async getBoobs() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/nsfw/img/boobs",
+      endpoint: "/nsfw/img/boobs",
     });
   }
 
   async getCosplay() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/nsfw/img/cosplay",
+      endpoint: "/nsfw/img/cosplay",
     });
   }
 
   async getCum() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/nsfw/img/cum",
+      endpoint: "/nsfw/img/cum",
     });
   }
 
   async getFeet() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/nsfw/img/feet",
+      endpoint: "/nsfw/img/feet",
     });
   }
 
   async getFemdom() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/nsfw/img/femdom",
+      endpoint: "/nsfw/img/femdom",
     });
   }
 
   async getFuta() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/nsfw/img/futa",
+      endpoint: "/nsfw/img/futa",
     });
   }
 
   async getGasm() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/nsfw/img/gasm",
+      endpoint: "/nsfw/img/gasm",
     });
   }
 
   async getHolo() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/nsfw/img/holo",
+      endpoint: "/nsfw/img/holo",
     });
   }
 
   async getKitsune() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/nsfw/img/kitsune",
+      endpoint: "/nsfw/img/kitsune",
     });
   }
 
   async getLewd() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/nsfw/img/lewd",
+      endpoint: "/nsfw/img/lewd",
     });
   }
 
   async getNeko() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/nsfw/img/neko",
+      endpoint: "/nsfw/img/neko",
     });
   }
 
   async getNekopara() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/nsfw/img/nekopara",
+      endpoint: "/nsfw/img/nekopara",
     });
   }
 
   async getPantsu() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/nsfw/img/pantsu",
+      endpoint: "/nsfw/img/pantsu",
     });
   }
 
   async getPantyhose() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/nsfw/img/pantyhose",
+      endpoint: "/nsfw/img/pantyhose",
     });
   }
 
   async getPeeing() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/nsfw/img/peeing",
+      endpoint: "/nsfw/img/peeing",
     });
   }
 
   async getPetPlay() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/nsfw/img/petplay",
+      endpoint: "/nsfw/img/petplay",
     });
   }
 
   async getPussy() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/nsfw/img/pussy",
+      endpoint: "/nsfw/img/pussy",
     });
   }
 
   async getSlimes() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/nsfw/img/slimes",
+      endpoint: "/nsfw/img/slimes",
     });
   }
 
   async getSolo() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/nsfw/img/solo",
+      endpoint: "/nsfw/img/solo",
     });
   }
 
   async getSwimsuit() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/nsfw/img/swimsuit",
+      endpoint: "/nsfw/img/swimsuit",
     });
   }
 
   async getTentacle() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/nsfw/img/tentacle",
+      endpoint: "/nsfw/img/tentacle",
     });
   }
 
   async getThighs() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/nsfw/img/thighs",
+      endpoint: "/nsfw/img/thighs",
     });
   }
 
   async getTrap() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/nsfw/img/trap",
+      endpoint: "/nsfw/img/trap",
     });
   }
 
   async getYaoi() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/nsfw/img/yaoi",
+      endpoint: "/nsfw/img/yaoi",
     });
   }
 
   async getYuri() {
-    return await this.client.request.req({
-      type: "IMG",
+    return await this.#client.request.req({
+      type: "API",
       method: "GET",
-      endpoint: "/api/nsfw/img/yuri",
+      endpoint: "/nsfw/img/yuri",
     });
   }
 }

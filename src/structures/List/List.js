@@ -1,9 +1,10 @@
 class List {
+  #client;
   constructor(client) {
-    this.client = client;
+    this.#client = client;
   }
   async getTemplates() {
-    return await this.client.request.req({
+    return await this.#client.request.req({
       type: "API",
       method: "GET",
       endpoint: "/list/templates",
@@ -11,7 +12,7 @@ class List {
   }
 
   async getBanners() {
-    return await this.client.request.req({
+    return await this.#client.request.req({
       type: "API",
       method: "GET",
       endpoint: "/list/banners",
@@ -19,7 +20,7 @@ class List {
   }
 
   async getIcons() {
-    return await this.client.request.req({
+    return await this.#client.request.req({
       type: "API",
       method: "GET",
       endpoint: "/list/icons",

@@ -1,20 +1,21 @@
 class Convert {
+  #client;
   constructor(client) {
-    this.client = client;
+    this.#client = client;
   }
   async htmlToMarkdown(options = { html: "" }) {
-    return await this.client.request.req({
+    return await this.#client.request.req({
       type: "API",
       method: "POST",
       endpoint: "/convert/html-markdown",
       data: {
-        html: "<h1>Title</h1>",
+        html: options.html,
       },
     });
   }
 
   async markdownToHTML(options = { markdown: "" }) {
-    return await this.client.request.req({
+    return await this.#client.request.req({
       type: "API",
       method: "POST",
       endpoint: "/convert/markdown-html",
