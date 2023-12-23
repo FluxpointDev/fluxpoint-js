@@ -37,7 +37,7 @@ main().catch((e: IErrorResponse) => {
 ```
 # CoffeeScript
 ```coffee
-{ FluxpointClient } = require "fluxpoint-js";
+{ FluxpointClient } = require "fluxpoint-js"
 client = new FluxpointClient { token: "token" }
 
 main = () ->
