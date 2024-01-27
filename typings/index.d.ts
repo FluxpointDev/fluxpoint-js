@@ -93,6 +93,17 @@ declare module "fluxpoint-js" {
     host: string | number;
     port: string | number;
   }
+
+  interface IMinecraftGetSkinResponse {
+    accountFound: boolean;
+    uuid: string;
+    name: string;
+    skinUrl?: string;
+    headUrl?: string;
+    cubeUrl?: string;
+    bodyUrl?: string;
+    fullUrl?: string;
+  }
   class FluxpointClient {
     public token: string;
     private request: Request;
@@ -181,6 +192,10 @@ declare module "fluxpoint-js" {
     public getPingByHost(
       host: string | number
     ): Promise<IMinecraftResponse | IErrorResponse>;
+    public getSkin(
+      playerName: string,
+      type?: "head" | "cube" | "body" | "full" | "all"
+    ): Promise<IMinecraftGetSkinResponse | IErrorResponse>;
   }
   class SFWImages {
     private client: FluxpointClient;

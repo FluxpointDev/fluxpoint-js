@@ -12,6 +12,8 @@ dist
 __tests__
 
 
+# Lock
+
 # User-specific files
 *.rsuser
 *.suo

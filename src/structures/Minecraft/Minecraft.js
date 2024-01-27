@@ -18,6 +18,14 @@ class Minecraft {
       endpoint: `/mc/ping?host=${host}`,
     });
   }
+
+  async getSkin(playerName, type = "head" | "cube" | "body" | "full" | "all") {
+    return await this.#client.request.req({
+      type: "API",
+      method: "GET",
+      endpoint: `/mc/skin?player=${playerName}${type ? `?type=${type}` : ""}`,
+    });
+  }
 }
 
 module.exports = {

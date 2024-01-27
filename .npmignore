@@ -1,3 +1,5 @@
 .idea
 __tests__
 .vscode
+*.lock
+*.log
