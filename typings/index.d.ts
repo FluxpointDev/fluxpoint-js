@@ -115,6 +115,7 @@ declare module "fluxpoint-js" {
     public sfw: SFW;
     public meme: Meme;
     public animal: Animal;
+    public nsfw: NSFW;
     constructor(options?: { token: string });
   }
   class Request {
