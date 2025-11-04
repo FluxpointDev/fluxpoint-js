@@ -343,3 +343,7 @@ ASALocalRun/
 
 # Local History for Visual Studio
 .localhistory/
+
+# Generated TypeDoc documentation
+docs/
+

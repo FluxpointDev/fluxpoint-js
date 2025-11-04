@@ -5,7 +5,6 @@ class Convert {
   }
   async htmlToMarkdown(options = { html: "" }) {
     return await this.#client.request.req({
-      type: "API",
       method: "POST",
       endpoint: "/convert/html-markdown",
       data: {
@@ -16,7 +15,6 @@ class Convert {
 
   async markdownToHTML(options = { markdown: "" }) {
     return await this.#client.request.req({
-      type: "API",
       method: "POST",
       endpoint: "/convert/markdown-html",
       data: {

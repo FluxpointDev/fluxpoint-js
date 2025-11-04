@@ -5,7 +5,6 @@ class NSFWGifs {
   }
   async getAnal() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/gif/anal",
     });
@@ -13,7 +12,6 @@ class NSFWGifs {
 
   async getAss() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/gif/ass",
     });
@@ -21,7 +19,6 @@ class NSFWGifs {
 
   async getBDSM() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/gif/bdsm",
     });
@@ -29,7 +26,6 @@ class NSFWGifs {
 
   async getBlowJob() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/gif/blowjob",
     });
@@ -37,7 +33,6 @@ class NSFWGifs {
 
   async getBoobJob() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/gif/boobjob",
     });
@@ -45,7 +40,6 @@ class NSFWGifs {
 
   async getBoobs() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/gif/boobs",
     });
@@ -53,7 +47,6 @@ class NSFWGifs {
 
   async getCum() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/gif/cum",
     });
@@ -61,7 +54,6 @@ class NSFWGifs {
 
   async getFeet() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/gif/feet",
     });
@@ -69,7 +61,6 @@ class NSFWGifs {
 
   async getFuta() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/gif/futa",
     });
@@ -77,7 +68,6 @@ class NSFWGifs {
 
   async getHandJob() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/gif/handjob",
     });
@@ -85,7 +75,6 @@ class NSFWGifs {
 
   async getHentai() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/gif/hentai",
     });
@@ -93,7 +82,6 @@ class NSFWGifs {
 
   async getKitsune() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/gif/kitsune",
     });
@@ -101,7 +89,6 @@ class NSFWGifs {
 
   async getKuni() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/gif/kuni",
     });
@@ -109,7 +96,6 @@ class NSFWGifs {
 
   async getNeko() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/gif/neko",
     });
@@ -117,7 +103,6 @@ class NSFWGifs {
 
   async getPussy() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/gif/pussy",
     });
@@ -125,7 +110,6 @@ class NSFWGifs {
 
   async getWank() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/gif/wank",
     });
@@ -133,7 +117,6 @@ class NSFWGifs {
 
   async getSolo() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/gif/solo",
     });
@@ -141,7 +124,6 @@ class NSFWGifs {
 
   async getSpank() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/gif/spank",
     });
@@ -149,7 +131,6 @@ class NSFWGifs {
 
   async getFemdom() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/gif/femdom",
     });
@@ -157,7 +138,6 @@ class NSFWGifs {
 
   async getTentacle() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/gif/tentacle",
     });
@@ -165,7 +145,6 @@ class NSFWGifs {
 
   async getToys() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/gif/toys",
     });
@@ -173,7 +152,6 @@ class NSFWGifs {
 
   async getYuri() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/gif/yuri",
     });

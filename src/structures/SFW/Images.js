@@ -5,7 +5,6 @@ class SFWImages {
   }
   async getAnime() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/img/anime",
     });
@@ -13,7 +12,6 @@ class SFWImages {
 
   async getChibi() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/img/chibi",
     });
@@ -21,7 +19,6 @@ class SFWImages {
 
   async getNeko() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/img/neko",
     });
@@ -29,7 +26,6 @@ class SFWImages {
 
   async getNekoBoy() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/img/nekoboy",
     });
@@ -37,7 +33,6 @@ class SFWImages {
 
   async getNekoPara() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/img/nekopara",
     });
@@ -45,7 +40,6 @@ class SFWImages {
 
   async getKitsune() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/img/kitsune",
     });
@@ -53,7 +47,6 @@ class SFWImages {
 
   async getHolo() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/img/holo",
     });
@@ -61,7 +54,6 @@ class SFWImages {
 
   async getAzulane() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/img/azurlane",
     });
@@ -69,7 +61,6 @@ class SFWImages {
 
   async getChristmas() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/img/christmas",
     });
@@ -77,7 +68,6 @@ class SFWImages {
 
   async getHalloween() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/img/halloween",
     });
@@ -85,7 +75,6 @@ class SFWImages {
 
   async getMaid() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/img/maid",
     });
@@ -93,7 +82,6 @@ class SFWImages {
 
   async getDDLC() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/img/ddlc",
     });
@@ -101,7 +89,6 @@ class SFWImages {
 
   async getWallpaper() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/img/wallpaper",
     });

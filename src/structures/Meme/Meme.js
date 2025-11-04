@@ -5,7 +5,6 @@ class Meme {
   }
   async getMeme() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/img/meme",
     });
@@ -13,7 +12,6 @@ class Meme {
 
   async getNou() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/img/nou",
     });
@@ -21,7 +19,6 @@ class Meme {
 
   async getPog() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/img/pog",
     });

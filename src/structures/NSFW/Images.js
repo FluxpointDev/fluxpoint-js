@@ -5,7 +5,6 @@ class NSFWImages {
   }
   async getAnal() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/img/anal",
     });
@@ -13,7 +12,6 @@ class NSFWImages {
 
   async getAnus() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/img/anus",
     });
@@ -21,7 +19,6 @@ class NSFWImages {
 
   async getAss() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/img/ass",
     });
@@ -29,7 +26,6 @@ class NSFWImages {
 
   async getAzurlane() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/img/azurlane",
     });
@@ -37,7 +33,6 @@ class NSFWImages {
 
   async getBDSM() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/img/bdsm",
     });
@@ -45,7 +40,6 @@ class NSFWImages {
 
   async getBlowJob() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/img/blowjob",
     });
@@ -53,7 +47,6 @@ class NSFWImages {
 
   async getBoobs() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/img/boobs",
     });
@@ -61,7 +54,6 @@ class NSFWImages {
 
   async getCosplay() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/img/cosplay",
     });
@@ -69,7 +61,6 @@ class NSFWImages {
 
   async getCum() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/img/cum",
     });
@@ -77,7 +68,6 @@ class NSFWImages {
 
   async getFeet() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/img/feet",
     });
@@ -85,7 +75,6 @@ class NSFWImages {
 
   async getFemdom() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/img/femdom",
     });
@@ -93,7 +82,6 @@ class NSFWImages {
 
   async getFuta() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/img/futa",
     });
@@ -101,7 +89,6 @@ class NSFWImages {
 
   async getGasm() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/img/gasm",
     });
@@ -109,7 +96,6 @@ class NSFWImages {
 
   async getHolo() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/img/holo",
     });
@@ -117,7 +103,6 @@ class NSFWImages {
 
   async getKitsune() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/img/kitsune",
     });
@@ -125,7 +110,6 @@ class NSFWImages {
 
   async getLewd() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/img/lewd",
     });
@@ -133,7 +117,6 @@ class NSFWImages {
 
   async getNeko() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/img/neko",
     });
@@ -141,7 +124,6 @@ class NSFWImages {
 
   async getNekopara() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/img/nekopara",
     });
@@ -149,7 +131,6 @@ class NSFWImages {
 
   async getPantsu() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/img/pantsu",
     });
@@ -157,7 +138,6 @@ class NSFWImages {
 
   async getPantyhose() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/img/pantyhose",
     });
@@ -165,7 +145,6 @@ class NSFWImages {
 
   async getPeeing() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/img/peeing",
     });
@@ -173,7 +152,6 @@ class NSFWImages {
 
   async getPetPlay() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/img/petplay",
     });
@@ -181,7 +159,6 @@ class NSFWImages {
 
   async getPussy() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/img/pussy",
     });
@@ -189,7 +166,6 @@ class NSFWImages {
 
   async getSlimes() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/img/slimes",
     });
@@ -197,7 +173,6 @@ class NSFWImages {
 
   async getSolo() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/img/solo",
     });
@@ -205,7 +180,6 @@ class NSFWImages {
 
   async getSwimsuit() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/img/swimsuit",
     });
@@ -213,7 +187,6 @@ class NSFWImages {
 
   async getTentacle() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/img/tentacle",
     });
@@ -221,7 +194,6 @@ class NSFWImages {
 
   async getThighs() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/img/thighs",
     });
@@ -229,7 +201,6 @@ class NSFWImages {
 
   async getTrap() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/img/trap",
     });
@@ -237,7 +208,6 @@ class NSFWImages {
 
   async getYaoi() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/img/yaoi",
     });
@@ -245,7 +215,6 @@ class NSFWImages {
 
   async getYuri() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/nsfw/img/yuri",
     });

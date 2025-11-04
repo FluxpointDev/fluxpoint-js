@@ -5,7 +5,6 @@ class List {
   }
   async getTemplates() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/list/templates",
     });
@@ -13,7 +12,6 @@ class List {
 
   async getBanners() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/list/banners",
     });
@@ -21,7 +19,6 @@ class List {
 
   async getIcons() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/list/icons",
     });

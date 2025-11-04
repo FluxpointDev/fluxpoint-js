@@ -4,7 +4,6 @@ class Test {
   }
   async test() {
     return await this.client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/",
     });
@@ -12,7 +11,6 @@ class Test {
 
   async testGallery() {
     return await this.client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/test/gallery",
     });
@@ -20,7 +18,6 @@ class Test {
 
   async testImage(type = "png" | "webp") {
     return await this.client.request.req({
-      type: "API",
       method: "GET",
       endpoint: `/test/image?type=${type}`,
     });
@@ -28,7 +25,6 @@ class Test {
 
   async testError() {
     return await this.client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/test/error",
     });

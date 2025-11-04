@@ -5,7 +5,6 @@ class Minecraft {
   }
   async getPing(options = { host: "" | 0, port: "" | 25565 | "25565" }) {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: `/mc/ping?host=${options.host}?port=${options.port}`,
     });
@@ -13,7 +12,6 @@ class Minecraft {
 
   async getPingByHost(host) {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: `/mc/ping?host=${host}`,
     });
@@ -21,7 +19,6 @@ class Minecraft {
 
   async getSkin(playerName, type = "head" | "cube" | "body" | "full" | "all") {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: `/mc/skin?player=${playerName}${type ? `?type=${type}` : ""}`,
     });
