@@ -1,6 +1,5 @@
 declare module "fluxpoint-js" {
   interface IResponseOptions {
-    type: "IMG" | "API";
     method: "GET" | "POST" | "PATCH" | "DELETE" | "PUT";
     endpoint: string;
     data?: Object;
@@ -162,10 +161,10 @@ declare module "fluxpoint-js" {
     private client: FluxpointClient;
     constructor(client: FluxpointClient);
     public htmlToMarkdown(
-      options: IHTMLToMarkdownOptions
+      options: IHTMLToMarkdownOptions,
     ): Promise<any | IErrorResponse>;
     public markdownToHTML(
-      options: IMarkdownToHTML
+      options: IMarkdownToHTML,
     ): Promise<any | IErrorResponse>;
   }
   class List {
@@ -181,21 +180,21 @@ declare module "fluxpoint-js" {
     public generateTemplate(template: string): Promise<Buffer | IErrorResponse>;
     public generate(): Promise<Buffer | IErrorResponse>;
     public generateWelcome(
-      options: IGenerateWelcomeOptions
+      options: IGenerateWelcomeOptions,
     ): Promise<Buffer | IErrorResponse>;
   }
   class Minecraft {
     private client: FluxpointClient;
     constructor(client: FluxpointClient);
     public getPing(
-      options: IGetPingOptions
+      options: IGetPingOptions,
     ): Promise<IMinecraftResponse | IErrorResponse>;
     public getPingByHost(
-      host: string | number
+      host: string | number,
     ): Promise<IMinecraftResponse | IErrorResponse>;
     public getSkin(
       playerName: string,
-      type?: "head" | "cube" | "body" | "full" | "all"
+      type?: "head" | "cube" | "body" | "full" | "all",
     ): Promise<IMinecraftGetSkinResponse | IErrorResponse>;
   }
   class SFWImages {

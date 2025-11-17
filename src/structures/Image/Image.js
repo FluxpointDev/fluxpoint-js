@@ -5,7 +5,6 @@ class Images {
   }
   async generateTemplate(template) {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: `/gen/${template}`,
     });
@@ -13,7 +12,6 @@ class Images {
 
   async generate() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/gen/html",
     });
@@ -21,7 +19,6 @@ class Images {
 
   async generateCustom() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/gen/custom",
     });
@@ -38,10 +35,9 @@ class Images {
       color_welcome: "",
       color_username: "",
       color_members: "",
-    }
+    },
   ) {
     const r = await this.#client.request.req({
-      type: "API",
       method: "POST",
       endpoint: "/gen/welcome",
       data: {

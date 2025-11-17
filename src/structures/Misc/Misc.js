@@ -5,7 +5,6 @@ class Misc {
   }
   async getDadJoke() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/dadjoke",
     });
@@ -13,7 +12,6 @@ class Misc {
 
   async getMe() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/me",
     });

@@ -1,10 +1,12 @@
 {
-    "out": "./docs",
-    "name": "fluxpoint-js",
-    "readme": "./README.md",
-    "theme": "default",
-    "entryPoints": ["typings/index.d.ts"],
-    "excludeExternals": false,
-    "excludePrivate": false,
-    "excludeInternal": false
-  }
+  "out": "./docs",
+  "name": "fluxpoint-js",
+  "readme": "./README.md",
+  "theme": "default",
+  "entryPoints": ["typings/index.d.ts"],
+  "excludeExternals": false,
+  "excludePrivate": false,
+  "excludeInternal": false,
+  "highlightLanguages": ["javascript", "js", "ts", "typescript", "coffeescript"]
+}
+

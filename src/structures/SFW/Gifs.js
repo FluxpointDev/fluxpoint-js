@@ -5,7 +5,6 @@ class SFWGifs {
   }
   async getBaka() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/gif/baka",
     });
@@ -13,7 +12,6 @@ class SFWGifs {
 
   async getBite() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/gif/bite",
     });
@@ -21,7 +19,6 @@ class SFWGifs {
 
   async getBlush() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/gif/blush",
     });
@@ -29,7 +26,6 @@ class SFWGifs {
 
   async getCry() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/gif/cry",
     });
@@ -37,7 +33,6 @@ class SFWGifs {
 
   async getDance() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/gif/dance",
     });
@@ -45,7 +40,6 @@ class SFWGifs {
 
   async getFeed() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/gif/feed",
     });
@@ -53,7 +47,6 @@ class SFWGifs {
 
   async getFluff() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/gif/fluff",
     });
@@ -61,7 +54,6 @@ class SFWGifs {
 
   async getGrab() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/gif/grab",
     });
@@ -69,7 +61,6 @@ class SFWGifs {
 
   async getHandHold() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/gif/handhold",
     });
@@ -77,7 +68,6 @@ class SFWGifs {
 
   async getHighFive() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/gif/highfive",
     });
@@ -85,7 +75,6 @@ class SFWGifs {
 
   async getHug() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/gif/hug",
     });
@@ -93,7 +82,6 @@ class SFWGifs {
 
   async getKiss() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/gif/kiss",
     });
@@ -101,7 +89,6 @@ class SFWGifs {
 
   async getLick() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/gif/lick",
     });
@@ -109,7 +96,6 @@ class SFWGifs {
 
   async getNeko() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/gif/neko",
     });
@@ -117,7 +103,6 @@ class SFWGifs {
 
   async getPat() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/gif/pat",
     });
@@ -125,7 +110,6 @@ class SFWGifs {
 
   async getPoke() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/gif/poke",
     });
@@ -133,7 +117,6 @@ class SFWGifs {
 
   async getPunch() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/gif/punch",
     });
@@ -141,7 +124,6 @@ class SFWGifs {
 
   async getShrug() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/gif/shrug",
     });
@@ -149,7 +131,6 @@ class SFWGifs {
 
   async getSlap() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/gif/slap",
     });
@@ -157,7 +138,6 @@ class SFWGifs {
 
   async getSmug() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/gif/smug",
     });
@@ -165,7 +145,6 @@ class SFWGifs {
 
   async getStare() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/gif/stare",
     });
@@ -173,7 +152,6 @@ class SFWGifs {
 
   async getTickle() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/gif/tickle",
     });
@@ -181,7 +159,6 @@ class SFWGifs {
 
   async getTailWag() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/gif/wag",
     });
@@ -189,7 +166,6 @@ class SFWGifs {
 
   async getWasted() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/gif/wasted",
     });
@@ -197,7 +173,6 @@ class SFWGifs {
 
   async getWave() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/gif/wave",
     });
@@ -205,7 +180,6 @@ class SFWGifs {
 
   async getWink() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/gif/wink",
     });
@@ -213,7 +187,6 @@ class SFWGifs {
 
   async getLaugh() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/gif/laugh",
     });

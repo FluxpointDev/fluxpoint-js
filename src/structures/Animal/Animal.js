@@ -5,7 +5,6 @@ class Animal {
   }
   async getCat() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/img/cat",
     });
@@ -13,7 +12,6 @@ class Animal {
 
   async getDog() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/img/dog",
     });
@@ -21,7 +19,6 @@ class Animal {
 
   async getDuck() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/img/duck",
     });
@@ -29,7 +26,6 @@ class Animal {
 
   async getLizard() {
     return await this.#client.request.req({
-      type: "API",
       method: "GET",
       endpoint: "/sfw/img/lizard",
     });
